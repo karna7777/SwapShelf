@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell - SwapShelf</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <section id="header"> 
+        <a href="#"></a>
+        <img src="img/Logo.png" class="Logo" alt="SwapShelf Logo">
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a class="active" href="sell.html">Sell</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fas fa-shopping-bag"></i> <span id="cart-count">0</span></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="sell-product" class="section-p1">
+        <h2>Add a Product</h2>
+        <form id="add-product-form">
+            <input type="text" id="product-name" placeholder="Product Name" required>
+            <input type="number" id="product-price" placeholder="Price ($)" required>
+            <input type="text" id="product-image" placeholder="Image URL (e.g., https://via.placeholder.com/150)" required>
+            <button type="submit">Add Product</button>
+        </form>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
